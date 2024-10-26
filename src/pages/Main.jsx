@@ -42,7 +42,7 @@ export const Main = ()=>{
                             return(
                                 <Link className="result-item" to={'/popimage/'+ele.pk} key={key}>
                                     <div className="item-head">
-                                        <img src={"http://127.0.0.1:8000/media/"+ele.fields.image} alt="" />
+                                        <img src={"https://tushar07.pythonanywhere.com/media/"+ele.fields.image} alt="" />
                                         <div className="item-details">
                                             <p>Name: <strong>{ele.fields.name}</strong></p>
                                             <p>Rack: <strong>{ele.fields.rack_no}</strong></p>

@@ -1,3 +1,3 @@
-const apiUrl = 'http://127.0.0.1:8000/chemically/api/';
+const apiUrl = 'https://tushar07.pythonanywhere.com/chemically/api/';
 
 export default apiUrl;
