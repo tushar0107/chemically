@@ -85,7 +85,7 @@ header#header a{
   color: black;
   border: 1px solid lightgrey;
 }
-.item-head{
+#dashboard-body .item-head{
   display: flex;
   justify-content: flex-start;
   gap: 1rem;

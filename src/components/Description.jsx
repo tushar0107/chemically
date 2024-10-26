@@ -33,7 +33,7 @@ export const Description = ()=>{
             {isLoading?<Loader/>: null}
             <div id="description-container">
                 <div className="description-image">
-                    <img src={chemical.image} alt=""></img>
+                    <img src={"https://tushar07.pythonanywhere.com"+chemical.image} alt=""></img>
                     <span>{chemical.name}</span>
                 </div>
                 <div className="description">
