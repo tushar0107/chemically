@@ -85,7 +85,7 @@ header#header a{
   color: black;
   border: 1px solid lightgrey;
 }
-#dashboard-body .item-head{
+.item-head{
   display: flex;
   justify-content: flex-start;
   gap: 1rem;
@@ -125,7 +125,7 @@ header#header a{
   border: 1px solid lightgrey;
   padding: 1rem;
 }
-.item-head{
+#dashboard-body .item-head{
   width: 30%;
   display: flex;
   flex-direction: column;
